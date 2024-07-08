@@ -1,8 +1,5 @@
-x = int(input())
-y = int(input())
- 
-x = x % y
-x = x % y
-y = y % x
- 
-print(y)
+counter = 5
+while counter:
+    print("Всередині циклу.", counter)
+    counter -= 1
+print("За межами циклу.", counter)
